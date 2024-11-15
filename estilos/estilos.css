@@ -66,6 +66,21 @@ body {
     margin-bottom: 15px;
   }
   
+
+  /* Tabla */
+.tabla {
+  width: 100%; 
+  margin-bottom: 20px;
+}
+
+.tabla th, .tabla td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+  text-align: left; 
+}
+
+
+
   /* Formulario de contacto */
   form label {
     margin-top: 10px;
@@ -90,17 +105,3 @@ body {
     width: 100%;
   }
 
-  .galeria {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-  }
-  
-  .galeria img {
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  
